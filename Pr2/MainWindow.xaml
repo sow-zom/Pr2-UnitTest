@@ -1,0 +1,25 @@
+﻿<Window x:Class="Pr2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pr2"
+        mc:Ignorable="d"
+        Title="Порахуй собі" Height="450" Width="300.948">
+    <Grid Margin="0,0,4,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Додати" HorizontalAlignment="Left" Height="78" Margin="48,102,0,0" VerticalAlignment="Top" Width="82" Click="Dod"/>
+        <Button Content="Відн'яти" HorizontalAlignment="Right" Height="78" Margin="0,102,35.4,0" VerticalAlignment="Top" Width="89" Click="Vid"/>
+        <Button Content="Помножити" HorizontalAlignment="Left" Height="75" Margin="48,216,0,0" VerticalAlignment="Top" Width="82" Click="Pomnij"/>
+        <Button Content="Поділити" HorizontalAlignment="Left" Height="75" Margin="166,216,0,0" VerticalAlignment="Top" Width="89" Click="Podil"/>
+        <Label Content="Число№0" HorizontalAlignment="Left" Height="29" Margin="62,26,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label Content="Число№1" HorizontalAlignment="Left" Height="29" Margin="183,26,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label Content="Результат ==" HorizontalAlignment="Left" Height="29" Margin="48,345,0,0" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:Name="rez" HorizontalAlignment="Left" Height="23" Margin="135,349,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ch0" HorizontalAlignment="Left" Height="23" Margin="48,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:Name="ch1" HorizontalAlignment="Left" Height="23" Margin="166,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85"/>
+
+    </Grid>
+</Window>
